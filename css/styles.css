@@ -1,0 +1,65 @@
+/* основной цвет теста #212121; */
+
+/* вторичный цвет текста #757575*/
+
+/* цвет акцента #2196F3 */
+
+/* цвет текста белый #ffffff */
+
+/* цвет фона основной #2F303A */
+/* вторичный цвет фона #F5F4FA */
+
+nav a{
+    
+}
+body {
+    color: #212121;
+    background-color: white;
+}
+.logo-part {
+    color: #2196F3;
+}
+.logo-upper{
+    color: #212121;
+}
+.logo-down{
+    color: #ffffff;
+}   
+
+a {
+ text-decoration: none;
+}
+.hero, address {
+    color: #ffffff;
+}
+
+.hero, footer {
+    background-color: #2F303A;
+}
+.our-team {
+    background-color: #F5F4FA;
+}
+
+.hero-link, .site-nav a{
+    color: inherit;
+}
+
+.auth-nav a, footer a{
+    color: #757575;
+}
+
+.list{
+    list-style: none;
+}
+
+.site-nav a:hover, 
+.auth-nav a:hover,
+footer a:hover,
+.site-nav a:focus, 
+.auth-nav a:focus,
+footer a:focus{
+    color: #2196F3;
+}
+p {
+  color: #757575;  
+}
